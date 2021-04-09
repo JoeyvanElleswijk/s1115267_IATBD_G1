@@ -68,16 +68,6 @@ class ProductController extends Controller
         ]);   
     }
 
-
-
-    // public function userDelete(Request $request) {
-    //     DB::delete('delete from users where id = ?',[$request->id]);
-    //     return view('admin.users', [
-    //         'users' => \App\Models\User::all()
-    //         ]);
-    //  }
-
-
     public function store(Request $request, \App\Models\Product $product){ 
         $product->userid = Auth::id();
         $product->image= $request->input('image');

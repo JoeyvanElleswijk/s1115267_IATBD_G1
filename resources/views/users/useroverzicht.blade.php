@@ -16,13 +16,13 @@
         </form>
     </section> 
 
-    <section>
-        <table style="width:100%">
+    <section class="user">
+        <table class="user__table">
         @foreach($users as $user)
             @include('users.components.userCard--info')
         @endforeach
-    </table>
-    <section>
+        </table>
+    </section>
 
     <section class="info">
             <figure class="info__imageholder">

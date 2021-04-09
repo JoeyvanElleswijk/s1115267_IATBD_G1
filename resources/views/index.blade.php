@@ -24,7 +24,7 @@
 
             <div class="share u-flex">
                 <p class="share__text">Of</p>
-                <a href=""> <button class="share__btn">Share</button></a>
+                <a href="/product/create"> <button class="share__btn">Share</button></a>
             </div>
         </section> 
 
@@ -160,7 +160,7 @@
                 </li> 
 
                 <li class="reviews__item">
-                    <h4 class="reviews_title">"Dit is mijn tweede lening bij Joey - geweldige uitrusting, geweldige prijs en uitstekende service!"</h4>
+                    <h4 class="reviews_text">"Dit is mijn tweede lening bij Joey - geweldige uitrusting, geweldige prijs en uitstekende service!"</h4>
                     <p class="reviews_name">Joey, van Elleswijk</p>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>

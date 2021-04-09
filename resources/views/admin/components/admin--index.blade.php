@@ -1,7 +1,7 @@
-<tr> 
-    <th>{{$user->name}}</th>
-    <th>{{$user->email}}</th>
-    <th>{{$user->role}}></th>
+<tr class="user__record">
+    <td class="user__field">{{$user->name}}</td>
+    <td class="user__field">{{$user->email}}</td>
+    <td class="user__field">{{$user->role}}></td>
     <th>
     <label>Datum</label>
         <input type="date" name="banned_until">

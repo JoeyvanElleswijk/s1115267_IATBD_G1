@@ -35,21 +35,6 @@ main {
 }
 
 /*general styles*/
-@font-face {
-    font-family: OpenSans-Bold;
-    src: url('/assets/fonts/OpenSans-Bold.ttf');
-}
-
-@font-face {
-    font-family: OpenSans-SemiBold;
-    src: url('/assets/fonts/OpenSans-SemiBold.ttf');
-}
-
-@font-face {
-    font-family: OpenSans-Regular;
-    src: url('/assets/fonts/OpenSans-Regular.ttf');
-}
-
 h1 {
     font-family: 'OpenSans-Bold', sans-serif;
     font-weight: 700;
@@ -361,6 +346,19 @@ button:hover {
     top: -4rem;
 }
 
+.user {
+    padding: 3rem;
+}
+
+.user__table {
+    width: 100%;
+}
+
+.user__field {
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 1.4rem;
+}
+
 .info {
     padding: 3rem 0;
     background-color: var(--bg-grey);  
@@ -601,6 +599,11 @@ list-style: none;
     font-weight: 400;
 }
 
+.gridCard__btn {
+    width: 100%;
+    margin-top: 2rem;
+}
+
 .product__filter {
     display: grid;
     grid-template-columns: 4fr 0fr 4fr 0fr;
@@ -618,11 +621,6 @@ list-style: none;
     margin-right: 1rem;
     cursor: pointer;
 }
-/* 
-input[type="checkbox"]{
-    border-radius: 3rem;
-    cursor: pointer;
-} */
 
 .search__link {
     height: 0;

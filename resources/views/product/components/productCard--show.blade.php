@@ -11,8 +11,9 @@
             <a class="gridCard__breadcrumb" href="{{$product->kind}}"> {{$product->kind . '   >   ' . $product->name}}</a>
             
             <p class="gridCard__text">{{$product->description}} </p>
+            <a href="/alluserproducts/{{$product->userid}}"><button class="gridCard__btn"type="submit">Bekijk user</button></a>
         </article>
-        <a href="/alluserproducts/{{$product->userid}}"><button class="deadline-form__btn"type="submit">Bekijk user</button></a>
+        
         <form class="deadline-form" action="/product" method="POST">
             @csrf
             <label for="dagen">Minimum uitleen dagen</label>
@@ -29,7 +30,7 @@
         <h3 class="reviews__title reviews__title--groter reviews__title--color reviews__title--center">Recente leen recenties </h3>
             <ul class="reviews__list">
                 <li class="reviews__item">
-                    <h4 class="reviews_text">"Dit is mijn tweede lening bij Antonio - geweldige uitrusting, geweldige prijs en uitstekende service!"</h4>
+                    <h4 class="reviews_text">"Dit is mijn tweede lening bij Tom - geweldige uitrusting en uitstekende service!"</h4>
                     <p class="reviews_name">Joey, van Elleswijk</p>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -39,8 +40,8 @@
                 </li> 
 
             <li class="reviews__item">
-                <h4 class="reviews_title">"Dit is mijn tweede lening bij Antonio - geweldige uitrusting, geweldige prijs en uitstekende service!"</h4>
-                <p class="reviews_name">Joey, van Elleswijk</p>
+                <h4 class="reviews_text">"lening bij Lena - geweldige uitrusting, geweldige en uitstekende service!"</h4>
+                <p class="reviews_name">Tom, van den Berg</p>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>

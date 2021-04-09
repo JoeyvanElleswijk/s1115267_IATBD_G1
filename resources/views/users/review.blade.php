@@ -24,7 +24,7 @@
         <input class="create-form__input" name="sterren" id="sterren" type="text"/>
 
         <label for="review">Schrijf een review</label>
-            <textarea class="create-form__input create-form__input--height" name="review" id="review" type="text-area"> </textarea>
+            <textarea class="create-form__input create-form__input--height" name="review" id="review"> </textarea>
     </form>
     </section>
 </main>
